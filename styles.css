@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family-Poppins");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#topbar {
+    width: 1300px;
+    margin: 0 auto;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 100px;
+    margin: 8px;
+    float: left;
+    padding: 10px;
+}
+
+.topbar_section {
+    float: left;
+    /* border-left: 1px #CCCCCC solid; */
+    height: 100%;
+}
+
+#signin-img {
+    width: 35px;
+    margin: 8px 10px;
+    float:left;
+    padding: 10px 0px 10px 0px;
+}
+
+#signin-div {
+    padding-right: 20px ;
+}
+
+#signin-text {
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: 25px;
+    margin-right: 8px;
+    padding-right: 80px ;
+    border-right: 1px #CCCCCC solid;
+}
+
+/* #bell-img {
+    width: 25px;
+    margin: 12px 10px;
+
+} */
+
+.topbar-menu {
+    font-weight: bold;
+    font-size: 90%;
+    padding: 25px 35px 1px 0; 
+    height: 37px;
+}
+
+.topbar-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.topbar-menu a :hover {
+    border-bottom: 1px #b29d9d solid;
+}
+
+#downarrow {
+    width: 15px;
+}
+
+  
+/* .search .fa-light {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 200px;
+  } */
+  
+  .search span {
+    margin-top: px;
+    padding: 10px 75px 10px 25px;
+    background-color: #ebe7e7;
+    border: none;
+
+  }
+
+ .news {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    background-color: #b80000;
+    color: #ffffff;
+}
+
+.top-navigation {
+    width: 1300px;
+    margin: 0 auto;
+    
+}
+.top-navigation div{
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+#local-news {
+    font-size: 20px;
+    font-weight: normal;
+    float: right;
+    margin-top: -65px;
+    margin-right: 70px;
+    padding: 8px;
+    border: 1px #cbc3c3eb solid;
+}
+
+#local-news a {
+    text-decoration: none;
+}
+
+#local-news :hover {
+    border-bottom: 2px #cbc3c3eb solid;
+}
+
+
+.section .list {
+    border-right: 1px #b29d9d solid ;
+    padding:0 10px;
+    font-size: 13.5px;
+    height: 0.5em;
+}
+
+.no-border {
+    border:none !important
+}
+
+.top-navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+.top-navigation a :hover{
+    border-bottom: 5px  #ffffff solid;
+}
+
+/* 
+.section span :hover{
+    border-bottom: 20px #CCCCCC solid;
+} */
