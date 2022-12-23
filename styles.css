@@ -191,7 +191,7 @@ h4 {
     margin-bottom: 15px;
 }
 
-.main-article #date {
+#date {
     color: #575555;
 }
 
@@ -210,14 +210,59 @@ h4 {
 
 .second-article {
     width: 275px;
-    float:right
-    
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-right: -25px;
 }
-
 
 .second-article img {
-    
+    width: 255px;
 }
+.second-article p {
+    width: 255px;
+    margin-top: 10px;
+    color:#9a9494;
+    margin-bottom: 30px;
+}
+
+.second-article a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.second-article a:hover{
+    color: #b80000;
+    text-decoration: underline;
+}
+
+.second-article #date a {
+    border-left: 2px solid #c0bdbd; 
+    padding-left: 5px;
+    font-weight: normal;
+    color: #696565;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.second-article #date a:hover{
+    color: #b80000;
+    text-decoration: underline;
+}
+
+.second-article #para {
+    margin-bottom: 12px;
+}
+
+.clear {
+    padding: 20px;
+}
+
+
+
+
+
 
 
 
